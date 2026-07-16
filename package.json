@@ -4,7 +4,7 @@
   "description": "LinkedIn profile optimizer for developers — no Python required",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && mkdir dist\\web\\templates 2>nul & mkdir dist\\web\\static\\img 2>nul & xcopy /y /q src\\web\\templates\\*.html dist\\web\\templates\\ >nul & xcopy /y /q src\\web\\static\\style.css dist\\web\\static\\ >nul & xcopy /y /q /i src\\web\\static\\img\\* dist\\web\\static\\img\\ >nul",
+    "build": "tsc && node scripts/copy-assets.js",
     "start": "node dist/index.js serve",
     "dev": "ts-node src/index.ts serve",
     "cli": "ts-node src/index.ts",

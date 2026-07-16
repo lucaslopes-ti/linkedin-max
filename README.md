@@ -10,6 +10,7 @@ Sem scraping. Sem risco de ban. Seus dados não ficam salvos permanentemente.
 
 ```bash
 npm install
+npm run build
 ```
 
 ## Interface web (recomendado)
