@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+node_modules/
+dist/
+.DS_Store
+
+# Dados pessoais do perfil — nunca commitar
+profile.yaml
+*.profile.yaml
+report.md
+llm_prompt.md
+*.pdf
+uploads/
